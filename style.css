@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Novecento Wide";
+    src: url("http://www.hellobonsai.com/assets/Novecentowide-Medium-35f6a632a4a910c5df3831ab1db8a8d1.woff");
+}
+
+body{
+    margin: 0;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+#main-container{
+    width: 100%;
+}
+
+#head-container{
+    background-image: url(images/payments-banner-graphic.png);
+    background-size: cover;
+    background-position: center;
+    height: 604px;
+}
+
+#logo{
+    margin: 0px 15px 16px 15px;
+    padding-top: 16px;
+    float: left;
+    position: absolute;
+}
+
+#logo img{
+    margin-right: 5px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sitename{
+    line-height: 25px;
+    font-family: "Novecento Wide", "Helvetica Neue", sans-serif;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fefefe;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#navs{
+    float: right;
+    padding-top: 20px;
+}
+
+#navs a{
+    white-space: nowrap;
+    padding: 20px 15px;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fefefe;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 62px;
+    text-decoration: none;
+    font-family: "Proxima Nova", "Montserrat", "Helvetica Neue", sans-serif;
+}
+
+#main-title{
+    padding: 200px 0px 230px;
+    text-align: center;
+}
+
+#main-title h1{
+    font-family: "Proxima Nova", "Montserrat", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 42px;
+    color: #fefefe;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#main-title h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: "FF Meta Serif", "Georgia", serif;
+    color: #fefefe;
+}
+
+#main-title button{
+    color: #8080BE;
+    width: 320px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    background-color: #fefefe;
+    border-color: #fefefe;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Proxima Nova", "Montserrat", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: auto;
+    border-radius: 3px;
+    padding: 12px 22px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+#pics-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #fefefe;
+    border-bottom: 1px solid #DDD;
+    box-shadow: 0 -2px 1px rgba(0,0,0,0.05);
+}
+
+.third{
+    width: 33.33%;
+}
